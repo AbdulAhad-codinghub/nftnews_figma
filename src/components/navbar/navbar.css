@@ -1,0 +1,121 @@
+.nft__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+flex-direction: row;
+
+}
+
+.nft__navbar-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 539px;
+    height: 47px;
+}
+
+.nft__navbar-links_logo {
+    width: 66px;
+    height: 66px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nft__navbar-links_logo img {
+    width: 66px;
+    height: 66px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nft__navbar-links_container {
+justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 277px;
+height: 17px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nft__navbar-subscribe {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 33px;
+    gap: 10px;
+
+    width: 156px;
+    height: 47px;
+}
+
+
+.nft__navbar-links_container p {
+    width: 1000px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: space-between;
+
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+
+   
+
+    color: #222222;
+
+    text-shadow: 0px 8px 32px rgba(0, 188, 179, 0.16);
+
+    
+
+    order: 2;
+    flex-grow: 0;
+}
+
+.nft__navbar-subscribe button {
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    border-radius: 30px;
+    width: 156px;
+    height: 47px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.nft__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.nft__navbar-menu png {
+    cursor: pointer;
+}

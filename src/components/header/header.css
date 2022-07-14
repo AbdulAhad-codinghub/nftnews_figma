@@ -1,0 +1,100 @@
+.nft_header {
+    display: flex;
+}
+.header__image {
+    position: absolute;
+    flex: 0;
+    width: 624px;
+    height: 440px;
+    padding: 100px;
+}
+.header__image img{
+    position: absolute;
+width: 604px;
+height: 420px;
+
+border-radius: 8px;
+}
+
+.header__content{
+    /* Auto layout */
+    justify-content:flex-start;
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 50px;
+gap: 24px;
+flex: 1;
+
+width: 300px;
+height: 358px;
+}
+
+.nft__header-content{
+
+/* How Azuki Broke The NFT Community? */
+
+
+width: 338px;
+height: 192px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+
+/* Heading Text Color */
+
+color: #0A0A0A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;}
+
+
+
+
+.nft__header-readmore{
+display: flex;
+align-items: flex-start;
+padding: 14px 33px;
+gap: 10px;
+width: 161px;
+height: 47px;
+
+order: 1;
+flex-grow: 0;
+}
+.nft__header-readmore button{
+    /* Button */
+
+
+/* Auto layout */
+
+display: flex;
+align-items: flex-start;
+padding: 14px 33px;
+gap: 10px;
+
+width: 161px;
+height: 47px;
+
+/* Button Color Text */
+
+background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+box-shadow: 0px 6px 12px rgba(0, 188, 179, 0.16);
+border-radius: 30px;
+
+/* Inside auto layout */
+
+order: 1;
+flex-grow: 0;
+}
